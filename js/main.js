@@ -269,7 +269,7 @@ function validateForm(formId) {
     Object.keys(validationErrors).forEach(function (field) {
       const fieldErrors = validationErrors[field];
       fieldErrors.forEach(function (errorMessage) {
-        errorMessages += `${field}: ${errorMessage}<br>`;
+        errorMessages += `${errorMessage}<br>`;
       });
     });
     Swal.fire({
