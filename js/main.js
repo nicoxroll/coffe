@@ -111,7 +111,7 @@ window.onload = function() {
         const menuContainer = $("#menu-container");
         menuContainer.empty();
         
-        let midata = data.slice(0,10)
+        let midata = data.slice(0,8)
         midata.forEach(item => {
           const description = item.description.substring(0, 80) + (item.description.length > 80 ? "..." : "");
           menuContainer.append(`
