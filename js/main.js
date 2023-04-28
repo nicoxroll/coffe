@@ -105,7 +105,7 @@
 
 window.onload = function() {
     $.ajax({
-      url: "https://api.sampleapis.com/coffee/hot",
+      url: "https://api.sampleapis.com/coffee/iced",
       method: "GET",
       success: function(data) {
         const menuContainer = $("#menu-container");
